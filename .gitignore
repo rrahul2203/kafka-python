@@ -1,0 +1,6 @@
+venv/
+spark
+kafka
+__pycache__/
+6env/
+kafka_server
