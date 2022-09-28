@@ -9,7 +9,6 @@
 
 - starting brokers
   - ./bin/kafka-server-start.sh config/server.properties
-  - ./bin/kafka-server-start.sh config/server1.properties
 
 - creating topic
   - ./bin/kafka-topics.sh --create --topic kafka-spark  --bootstrap-server localhost:9092 --replication-factor 2 --partitions 2
